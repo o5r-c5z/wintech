@@ -1,0 +1,274 @@
+html {
+  font-size: 15px;
+}
+
+// Header
+.Header.Header--bottom {
+  background: rgb(17,15,38);
+}
+
+.tweak-header-primary-nav-hover-style-fade .Header-nav .Header-nav-item {
+  font-variant: small-caps;
+}
+
+// Banners
+.tweak-index-page-fullscreen-first-page-only .Index-page--has-image:first-child, .tweak-index-page-fullscreen-pages-with-backgrounds-only .Index-page--has-image:first-child, .tweak-index-page-fullscreen-all-pages .Index-page--has-image:first-child {
+  min-height: 75vh !important;
+}
+
+.tweak-overlay-parallax-enabled .Parallax-item {
+  background-color: #ffffff;
+}
+
+// Titles
+h1 {
+  position: relative;
+  margin-bottom: 1.5rem;
+  font-variant: small-caps;
+  text-align: center;
+}
+
+h1::after {
+  content: '';
+  position: absolute;
+  bottom: -1rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 0.41rem;
+  width: 10rem;
+  background-image: url('https://static1.squarespace.com/static/5c2386a24cde7a0c1a74561a/t/5c2502de758d4652b3857c73/1545929438043/after-title.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+h2 {
+  font-weight: 900;
+  text-align: center;
+}
+
+h1 + h2 {
+  margin-bottom: 0;
+}
+
+h3 {
+  margin: 0.5rem;
+  color: rgb(191, 169, 96);
+  font-variant: small-caps;
+  font-size: 2.65rem;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+// Paragraphs
+p {
+  text-align: justify;
+  white-space: normal !important;
+}
+
+.sqs-block-image .sqs-image-caption p, .sqs-block-image .image-caption p {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+// Lists
+ul[data-rte-list] li > :first-child::before {
+  content: 'o';
+  color: rgb(191, 169, 96);
+  font-weight: bold;
+}
+
+// Buttons
+.sqs-block-button-element {
+  font-variant: small-caps;
+}
+
+.sqs-block-button-element--medium {
+  padding: 0 !important;
+}
+
+// Forms
+.form-wrapper .field-list .field .field-element {
+  border-color: rgb(224,211,176);
+  border-radius: 0;
+  background-color: #ffffff;
+}
+
+// Home page
+#collection-5c24a17270a6ada1a1a8fa30 {
+  #home-banner {
+    h1 {
+      color: rgba(191,169,96,1);
+    }
+    
+    h2 {
+      color: #ffffff;
+    }
+  }
+    
+  #block-yui_3_17_2_1_1545908717839_30246,
+  #block-yui_3_17_2_1_1545907682855_15481{
+    width: 100vw;
+    left: -20px;
+    
+    @media only screen and (min-width: 641px) {
+      left: -36px;
+    }
+    
+    @media only screen and (min-width: 769px) {
+      left: -48px;
+    }
+    
+    @media only screen and (min-width: 961px) {
+      left: -64px;
+    }
+    
+    @media only screen and (min-width: 1025px) {
+      left: -100px;
+    }
+    
+    @media only screen and (min-width: 1601px) {
+      left: ~'calc(-100px - (100vw - 1600px) / 2)';
+    }
+  }
+  
+  #block-yui_3_17_2_1_1545908717839_10844 {
+    a {
+      margin-right: 2vw;
+      border: 0;
+      color: rgb(17,15,38);
+      font-family: brandon-grotesque;
+      font-size: 1rem;
+      font-weight: 900;
+      font-style: normal;
+      font-variant: small-caps;
+    }
+    
+    a:last-of-type {
+      margin-right: 0;
+    }
+  }
+  
+  #block-yui_3_17_2_1_1545908717839_63809 p strong {
+    font-size: 2rem;
+    font-variant: small-caps;
+    font-weight: 900;
+  }
+  
+  #block-yui_3_17_2_1_1545908717839_11402,
+  #block-yui_3_17_2_1_1545908717839_12923,
+  #block-yui_3_17_2_1_1545908717839_16151 {
+    padding: 0.5rem;
+    
+    img {
+      bottom: 0;
+      left: 0;
+      right: 0;
+      top: 0;
+      margin: 25% auto 0;
+      width: 35% !important;
+      height: 35% !important;
+    }
+      
+    .intrinsic {
+      max-width: inherit !important;
+    }
+    
+	.image-caption-wrapper {
+      max-width: inherit !important;
+      width: 100%;
+      
+      p {
+        padding: 0.5rem;
+      }
+    }
+  }
+}
+
+// WinterHaven at a glance page
+#collection-5c24ded270a6ada1a1aae86d {
+  #block-dc253896c8f6ed5c6c7d {
+    h3 {
+      margin-bottom: -1rem;
+    }
+    
+    h3 + p strong {
+      font-weight: 900;
+    }
+  }
+  
+  #block-dc253896c8f6ed5c6c7d {
+    ul[data-rte-list] {
+      position: relative;
+      padding-top: 9.12%;
+    }
+    
+    ul[data-rte-list]::before {
+      content: '';
+      position: absolute;
+      left: 25.5px;
+      margin-top: -9.12%;
+      padding-top: 9.12%;
+      width: ~'calc(50% - 20px)';
+      background-image: url('https://static1.squarespace.com/static/5c2386a24cde7a0c1a74561a/t/5c2502f421c67c6c46ccbcbc/1545929460978/before-list.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+}
+
+// Location page
+#collection-5c24ea4040ec9a0be735d6f0 {
+  #block-yui_3_17_2_1_1546010012638_13327 {
+	@media only screen and (min-width: 641px) {
+      margin-top: -12rem;
+      width: 125%;
+    }
+  }
+}
+
+// Roadmap page
+// Image
+#block-yui_3_17_2_1_1545989012753_3758 {
+  @media only screen and (min-width: 641px) {
+	width: 90%;
+  }
+}
+
+// Dates
+#block-yui_3_17_2_1_1545989012753_5864,
+#block-yui_3_17_2_1_1545989012753_8612,
+#block-yui_3_17_2_1_1545989012753_11878,
+#block-yui_3_17_2_1_1546536744640_23765 {
+  padding-bottom: 0.75rem;
+  width: 20rem;
+  max-width: 90%;
+}
+
+// Texts
+#block-yui_3_17_2_1_1545989012753_15618,
+#block-yui_3_17_2_1_1545990265656_54861,
+#block-yui_3_17_2_1_1545989012753_5105,
+#block-yui_3_17_2_1_1546536744640_27224 {
+  padding-bottom: 5rem;
+  padding-top: 0;
+  
+  p:first-of-type {
+    margin-bottom: 0.25rem;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  
+  p:nth-of-type(2) {
+    margin-top: 0;
+    font-size: 1.6rem;
+    line-height: 1;
+  }
+}
+
+#block-yui_3_17_2_1_1545991607918_22915 p:last-of-type {
+  font-size: 1.5rem;
+}
